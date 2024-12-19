@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main{
+    height: 700px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    box-shadow: 24px 35px 52px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 24px 35px 52px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 24px 35px 52px 0px rgba(0,0,0,0.75);
+}
+.main:hover{
+
+}
+.card{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+backdrop-filter: blur(6px) saturate(181%);
+-webkit-backdrop-filter: blur(6px) saturate(181%);
+background-color: rgba(255, 255, 255, 0.49);
+border-radius: 12px;
+border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url("photo-removebg-preview.png");
+    background-size: cover;
+    border: 10px solid rgb(171,127,174);
+    position: relative;
+    bottom: 100px;
+filter: drop-shadow(2px 26px 15px #000000);
+}
+.about{
+    height: 100px;
+    width: 250px;
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color:rgb(164, 13, 129) ;
+    filter: drop-shadow(2px 26px 15px #000000);
+ 
+}
+.platform{
+    height: 40px;
+    width: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,30px);
+    grid-template-rows: repeat(1,30px);
+    gap: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 60px;
+
+
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+
+.lin{
+
+filter: drop-shadow(2px 26px 15px #000000);
+
+}
+.wapp{
+
+    filter: drop-shadow(2px 26px 15px #000000);
+
+
+}
+.insta{
+
+    filter: drop-shadow(2px 26px 15px #000000);
+
+}
+.git{
+    filter: drop-shadow(2px 26px 15px #000000);
+
+
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(171,127,174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    position: relative;
+    top: 30px;
+    filter: drop-shadow(2px 26px 15px #000000);
+
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+
+    background-color: rgb(171,127,174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+}
